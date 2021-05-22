@@ -16,6 +16,9 @@ struct EditView: View {
                 .font(.title)
             TextEditor(text: $widget.message)
                 .foregroundColor(.secondary)
+                .font(.title2)
+                .border( Color.secondary.opacity(0.8),width: 1)
+                .padding()
 
             Button(action: {
                 widget.fetch()
