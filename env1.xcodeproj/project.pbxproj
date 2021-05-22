@@ -13,6 +13,8 @@
 		D85789AC2659A89D00A251EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D85789AB2659A89D00A251EC /* Preview Assets.xcassets */; };
 		D85789B72659A89D00A251EC /* env1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85789B62659A89D00A251EC /* env1Tests.swift */; };
 		D85789C22659A89D00A251EC /* env1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85789C12659A89D00A251EC /* env1UITests.swift */; };
+		D85789D32659A98500A251EC /* WidgetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85789D22659A98500A251EC /* WidgetsViewModel.swift */; };
+		D85789DB2659B2F500A251EC /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85789DA2659B2F500A251EC /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D85789BD2659A89D00A251EC /* env1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = env1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85789C12659A89D00A251EC /* env1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = env1UITests.swift; sourceTree = "<group>"; };
 		D85789C32659A89D00A251EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D85789D22659A98500A251EC /* WidgetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsViewModel.swift; sourceTree = "<group>"; };
+		D85789DA2659B2F500A251EC /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				D85789A42659A88F00A251EC /* env1App.swift */,
 				D85789A62659A88F00A251EC /* ContentView.swift */,
+				D85789DA2659B2F500A251EC /* EditView.swift */,
+				D85789D22659A98500A251EC /* WidgetsViewModel.swift */,
 				D85789A82659A89D00A251EC /* Assets.xcassets */,
 				D85789AD2659A89D00A251EC /* Info.plist */,
 				D85789AA2659A89D00A251EC /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				D85789A72659A88F00A251EC /* ContentView.swift in Sources */,
 				D85789A52659A88F00A251EC /* env1App.swift in Sources */,
+				D85789DB2659B2F500A251EC /* EditView.swift in Sources */,
+				D85789D32659A98500A251EC /* WidgetsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

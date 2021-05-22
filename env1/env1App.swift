@@ -12,6 +12,9 @@ struct env1App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(WidgetViewModel())
+            
         }
+        
     }
 }
